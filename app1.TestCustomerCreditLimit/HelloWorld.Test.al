@@ -1,6 +1,13 @@
 codeunit 50000 "HelloWorld Test"
 {
     Subtype = Test;
+    TestPermissions = Disabled;
+
+    var
+        Assert: Codeunit "Assert";
+        MessageDisplayed: Boolean;
+        CreditManager: Codeunit "Customer Credit Manager";
+
 
     [Test]
     [HandlerFunctions('HelloWorldMessageHandler')]
@@ -19,8 +26,5 @@ codeunit 50000 "HelloWorld Test"
     begin
         MessageDisplayed := MessageDisplayed or (Message = 'Your App was published: Hello world');
     end;
-
-    var
-        MessageDisplayed: Boolean;
 }
 
