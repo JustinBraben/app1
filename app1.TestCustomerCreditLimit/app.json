@@ -22,6 +22,12 @@
       "name": "Any",
       "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
       "version": "22.0.0.0"
+    },
+    {
+      "publisher": "Justin",
+      "name": "app1",
+      "id": "e63478e3-020e-4afa-9e49-709baecb56de",
+      "version": "1.0.0.0"
     }
   ],
   "screenshots": [],
