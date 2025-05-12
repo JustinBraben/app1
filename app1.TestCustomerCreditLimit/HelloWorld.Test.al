@@ -1,3 +1,5 @@
+// TestCustomerCreditLimit
+// HelloWorld.Test.al
 codeunit 50000 "HelloWorld Test"
 {
     Subtype = Test;
