@@ -13,6 +13,9 @@
       "path": "app1.Test"
     },
     {
+      "path": "app1TestRunner"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
