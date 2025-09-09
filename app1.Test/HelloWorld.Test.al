@@ -20,6 +20,15 @@ codeunit 50000 "HelloWorld Test"
         MessageDisplayed := MessageDisplayed or (Message = 'App published: Hello world');
     end;
 
+    // [Test]
+    // local procedure TestCustomerCreation()
+    // var
+    //     Customer: Record Customer;
+    //     LibraryUtil: Codeunit "Sales Line";
+    // begin
+    //     Base Application
+    // end;
+
     var
         MessageDisplayed: Boolean;
 }
