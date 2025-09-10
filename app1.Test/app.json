@@ -13,6 +13,12 @@
   "dependencies": [
     {
       "publisher": "Microsoft",
+      "name": "Sales and Inventory Forecast",
+      "id": "c526b3e9-b8ca-4683-81ba-fcd5f6b1472a",
+      "version": "26.0.0.0"
+    },
+    {
+      "publisher": "Microsoft",
       "name": "Library Assert",
       "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
       "version": "26.0.0.0"
